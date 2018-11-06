@@ -23,9 +23,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "libs/css/scrolling-nav.css",
+              "libs/vendor/bootstrap/css/bootstrap.min.css",
+              "libs/vendor/bootstrap/css/bootstrap-grid.min.css",
+              "libs/vendor/bootstrap/css/bootstrap-reboot.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "libs/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "libs/vendor/bootstrap/js/bootstrap.min.js",
+              "libs/vendor/jquery/jquery.min.js",
+              "libs/vendor/jquery/jquery.slim.min.js",
+              "libs/vendor/jquery-easing/jquery.easing.min.js",
+              "libs/js/scrolling-nav.js"
+            ]
           },
           "configurations": {
             "production": {
